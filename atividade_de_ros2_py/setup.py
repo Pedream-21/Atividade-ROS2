@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             'publicador = atividade_de_ros2_py.publicador:main',
             'assinante = atividade_de_ros2_py.assinante:main',
+            'calculator_server = atividade_de_ros2_py.calculator_server:main',
+            'calculator_client = atividade_de_ros2_py.calculator_client:main',
         ],
     },
 )
